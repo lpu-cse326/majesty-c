@@ -1,0 +1,133 @@
+body 
+{ 
+  background: url(ankush-mnda-7kbfhpm5beM-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #333;
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	text-transform: uppercase; line-height:3;
+	font-family: 'Anton', sans-serif;
+}
+h3
+{
+	text-align: left;
+	margin-left: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+}
+
+
+body
+{
+  font-size: 18px;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  margin-right: 0;
+  padding-left:  12%;
+
+  overflow: hidden;
+  background-color:#fc2403 ;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+
+}
+
+li {
+  float: left;
+}
+
+li a 
+{ 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 29px;
+  text-decoration: none;
+}
+
+#sana
+{
+  border-left: solid;
+  border-width: 3px;
+  border-radius:8px;
+  border-color: #333;
+}
+#nasa
+{
+  border-right: solid;
+  border-width: 3px;
+  border-radius:8px;
+  border-color: #333;
+
+}
+
+
+li a:hover 
+{
+  background-color: #4CAF50;
+  border-radius: 8px;
+}
+.active 
+{
+  background-color:  #333;
+}
+p
+{
+	color: white;
+}
+.row {
+  background: url(photo-1548504769-900b70ed122e.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  padding-left: 12%; 
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+.column
+ {
+  flex: 35%;
+  padding-left: 2%;
+  padding-top: 2%;
+  font-size: 2em;
+  line-height: 40px;
+  padding-left;
+  font-family: 'Lobster', cursive; 
+  float: right;
+}
+
+#vine
+{    align-self: left;
+	height: 11%;
+	width: 11%;
+}
+#imageslide
+{
+	margin-left:  12%;
+	border-color: white;
+}
+
+#ministy
+{
+  border-radius: 4%;
+	text-align: center;
+ background-color: orange;
+}
