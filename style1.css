@@ -1,6 +1,7 @@
 body 
 { 
-  background: url(ankush-mnda-7kbfhpm5beM-unsplash.jpg) no-repeat center center fixed; 
+  font-family: 'Questrial', sans-serif;
+  background: url(ankush-minda-7kbfhpm5beM-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +17,8 @@ h1
 	text-transform: uppercase; line-height:3;
 	font-family: 'Anton', sans-serif;
 }
-h3
+
+h6
 {
 	text-align: left;
 	margin-left: 20px;
@@ -24,7 +26,6 @@ h3
 	text-transform: uppercase;
 	font-family: 'Anton', sans-serif;
 }
-
 
 body
 {
@@ -112,7 +113,7 @@ p
   padding-left;
   font-family: 'Lobster', cursive; 
   float: right;
-}
+ }
 
 #vine
 {    align-self: left;
@@ -129,5 +130,85 @@ p
 {
   border-radius: 4%;
 	text-align: center;
- background-color: orange;
+  background-color: orange;
+}
+.bbb
+{ 
+ 
+  border-radius: 3%;
+  color: #333;
+  background-color: #ff6d29;
+}
+.aaa
+{ 
+ 
+border-radius: 5% 0% 0% 5%;
+  color: #333;
+  background-color: orange;
+}
+
+
+
+.knos {
+  list-style-type: none;
+  margin-right: ;
+  padding:0;
+  overflow: hidden;
+  background-color: red;
+  border-radius:16px;
+}
+
+.nos {
+  float: left;
+ }
+
+.nos a {
+border-radius:16px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ .nos a:hover:not(.activ) {
+  background-color: green;
+ }
+
+ .activ {
+  background-color: orange;
+ }
+
+.grid-container{margin-right: 13%;
+margin-left: 12%}
+  
+
+
+.one { grid-area: header;
+}
+.two { grid-area: main; }
+.three { grid-area:footer; }
+.grid-container 
+{
+     display: grid;
+     grid-template-areas:
+    'header header header footer footer'
+    'menu main main footer footer'
+    'menu main main footer footer';
+}
+.gst{
+  text-decoration:none;
+  color:white; 
+  text-transform: none;
+}
+
+.k1
+{
+  margin-top: 2%
+}
+.bingo
+{
+  display: grid;
+ grid-template-columns: auto auto auto;
+
 }
