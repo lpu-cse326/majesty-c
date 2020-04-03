@@ -15,14 +15,16 @@
    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script type="text/javascript" src="pageone.js"></script>
 </head>
 <body>
 	
 
 <div class="row">
-    <img id="vine" src="1200px-Bureau_of_Energy_Efficiency,_India_logo.svg.png">
-    <div class="column">
+       <img id="vine" src="1200px-Bureau_of_Energy_Efficiency,_India_logo.svg.png">
+ <div class="column">
        <p style="color: #333399">                                                            <!--here is the topmost part which disappears after scrolling -->
         The Indian<br>
         Electricity Website
@@ -34,8 +36,64 @@
   <div class="column">
     <form style="margin-left: 5%;"  class="form-inline my-2 my-lg-0">                           <!-- this is for seach toogler-->
       <input  class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button style=" background-color: white;color: blue" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button style=" background-color: #ff00bf;color: white" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
+      <div class="container-fluid ob">                                                            <!-- these are the social media sites -->
+       <a href="https://www.facebook.com/pages/Ministry-of-Power-Govt-of-India/743918262321035?ref_typea" class="fa fa-facebook"></a>
+       <a href="https://twitter.com/@MinOfPower" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+
+       <button class="llcc" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>      <!--  this is the login button -->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="logo.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div style="font-family: none;" class="container">
+      <label for="uname"><b>Username</b></label>
+      <input style="border-radius: 25px" class="lala" type="text" placeholder="Enter Username" name="uname" required>
+      <label for="RVRIS"><b>RVRIS Number</b></label><br>
+      <input style="border-radius: 15px" class="lala" type="RVRIS" placeholder="Enter Rvris Number" name="RVRIS " required><br>
+      <label for="EBN"><b>Electric Board Name</b></label><br>
+      <input style="border-radius: 15px" class="lala" type="EBN" placeholder=" Electric Board Name" name="EBN" required>
+      <button style="border-radius: 15%" type="submit">Login</button>
+      <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div  style="font-family: none;" class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="RVRIS">Forgot <a href="#">RVRIS Number ?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+ 
+</script>
+
+
+    </div>
+      
+
+
+
  </div>
  </div>
 
