@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "montserrat",sans-serif;
+    color: white;
+    font-size: 16px;
+    background: #333333;
+    
+}
+.about-section {
+    padding: 5px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+.container{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0.5px;
+cursor: default;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    width: 35%;
+    height: 480px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg, #ff677d 10%,#cd6684 100%);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5,);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.shoe-container{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shoe{
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    transform: translateZ(50px);
+    max-width: 145px;
+    width: 240px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.category{
+    transform: translateZ(30px);
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    align-items: start;
+
+}
+.category .sub-head{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.35);
+    margin: 2px;
+}
+.description{
+    color: royalblue;
+    transform: translateZ(25px);
+    text-align: justify;
+    text-shadow:  0 2px 20px rgba(0, 0, 0, 0.3);
+
+}
+body a{
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+.read-more{
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
+    transform: translateZ(30px);
+    font-size: 16px;
+    font-weight: medium;
+}
+.read-more:hover{
+    cursor: pointer;
+}
+body.js-tilt-glare{
+    pointer-events: none;
+}

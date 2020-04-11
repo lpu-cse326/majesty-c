@@ -1,0 +1,13 @@
+.aba
+{ 
+ 
+border-radius: 5% 5% 5% 5%;
+  color: #333;
+  background-color: #f5a142;
+}
+
+.loca, .koka {
+	padding: 5px;
+  border: 1px solid orange;
+  border-collapse: collapse;
+}

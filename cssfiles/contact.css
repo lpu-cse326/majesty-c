@@ -1,0 +1,169 @@
+body{
+    background: url("https://cdn.pixabay.com/photo/2016/11/22/23/49/bright-1851267__340.jpg");
+    background-position: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+.container{
+  color: white;
+    text-align: center;
+    margin: 3vh auto;
+    width: 700px;
+}
+.icons{
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.icons li{
+    display: inline-block;  /* this is to transform icons frome vertical to horizontal*/
+    margin: 20px;
+    position: relative;
+    font-size: 32px;
+}
+.icons i{
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 265ms ease-out;
+}
+.icons a{
+    display: inline-block;
+}
+.icons a::before{
+transform: scale(1);
+content: "";
+width: 70px;
+height: 70px;
+border-radius: 100%;
+display: block;
+background: linear-gradient(45deg,#94103a,#d64747);
+transition: all 256ms ease-out;
+}
+.icons a:hover::before{      /* frome here we can see different types of hover effect on icons*/
+   transform: scale(0);
+   transition: transform 265ms ease-in;
+
+}
+.icons a::hover i{
+    transform: scale(2);
+    color: #ff003c;
+    background: linear-gradient(45deg,#94103a,#d64747);
+    -webkit-backgr: text;
+    -webkit-text-fill-color: transparent;
+    transition: all265ms ease-in;
+}
+.jk{
+    color: #f44336;
+  }
+
+.ll{
+      color: indigo;
+  } 
+ /*set style for input*/
+      input[type=text],input[type=password]
+      {
+          width: 100%;
+          padding: 15px;
+          margin: 8px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+      /*set style for button*/
+      button{
+          background-color: cadetblue;
+          color: darkblue;
+          padding: 20px;
+          margin: 8px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+      }
+      button:hover{
+          opacity:0.8;
+      }
+      /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+  img.avatar {
+    width: 40%;
+    border-radius: 10%;
+  }
+
+  .container1 {color: white;
+    text-align: center;
+    padding: 16px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
