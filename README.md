@@ -5,6 +5,6 @@
 This is a collage project which simulates Indian electricity website.
 Repository contains a Synopsis pdf file , Final Report pdf file and code of project.
 # How to Run This Website :
-simply download the pdf and then open
+simply download the repository and then open
 # page1.html
 
